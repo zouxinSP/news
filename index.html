@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>智能家居</title>
+	<link rel="stylesheet" href="css/base.css">
+	<script src="js/index.js"></script>
+</head>
+<body>
+	<div class="mainbox">
+		<!-- 在线咨询 -->
+		<div id="zixunbox">
+			<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=2585202540&amp;menu=yes"><img src="images/services.jpg" alt="" width="104" height="144"></a>
+		</div>
+		
+
+		<!-- 头部 -->
+		<div class="topbox">
+			<!-- login	 -->
+			<div id="login">
+				<div class="login1">
+					<img src="images/login.png" alt="" width="120" height="60">
+				</div>
+				<div class="loginfont">
+					<span class="loginspan">成都新智达智能家居公司</span>
+				</div>
+				<div style="position:absolute;bottom:15px;right:10px;">
+					<img src="images/top.jpg" alt="">
+				</div>
+				<div id="setindex">
+					<ul>
+						<li><a href="#">设为首页</a></li>
+						<li><a href="#">|</a></li>
+						<li><a href="#">联系我们</a></li>
+					</ul>
+				</div>
+			</div>
+			<!-- menu -->
+			<div id="mainmenu" style="position:relative">
+				<div id="nav">
+					<ul>
+						<li><a href="index.html">首页</a></li>
+						<li><a href="list.html">产品列表</a></li>
+						<li onmouseover="showobj('nav1')" onmouseout="hiddenobj('nav1')"><a href="newslist.html">新闻资讯</a></li>
+						<li><a href="success.html">成功案例</a>
+						<li><a href="linkus.html">联系我们</a></li>
+						<li><a href="">关于我们</a></li></li>
+						<li><a href="">解决方案</a></li>
+						<li><a href="">体验中心</a></li>		
+						<li><a href="">加盟合作</a></li>
+						<li><a href="">资料下载</a></li>
+					</ul>
+				</div>
+				<!-- 二级菜单 -->
+				<div id="nav1" >
+					<ul onmouseover="showobj('nav1')" onmouseout="hiddenobj('nav1')">
+						<li><a href="">公司新闻</a></li>
+						<li><a href="">行业新闻</a></li>
+						<li><a href="">国内新闻</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- banner -->
+		<div id="bannerbox"  style="position:relative;">
+			<div>
+				<img src="images/banner1.jpg" width="1113" style="display:block" id="banner1" alt="">
+			</div>
+			<div id="spanbtn" style="position:absolute;right:10px;bottom:10px;">
+				<span onmouseover="showbannerbyid(1)" onmouseout="btnMouseOut()">1</span>
+				<span onmouseover="showbannerbyid(2)" onmouseout="btnMouseOut()">2</span>
+				<span onmouseover="showbannerbyid(3)" onmouseout="btnMouseOut()">3</span>
+				<span onmouseover="showbannerbyid(4)" onmouseout="btnMouseOut()">4</span>
+			</div>
+		</div>
+
+		<!-- 中间内容 -->
+		<div class="middlebox">
+			<!-- 中间上部分 -->
+			<div class="midtop">
+				<div class="topleft">
+					<div class="toptitle"><div class="titlecontent"><span>新闻动态 News</span></div>
+					</div>
+					<div class="toplist" id="newsbox">
+						<div class="titleimg">
+							<img src="images/newsimg.jpg" alt="">
+						</div>
+						<ul class="newslistul">
+							<li>智能家居入门神器</li>
+							<li>父母玩起智能产品，远比你想象的溜</li>
+							<li>怎么办？太喜欢智能家居了</li>
+							<li>智能家居，您了解多少？</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="topleft" id="companybox" style="width:400px;">
+					<div class="toptitle"><div class="titlecontent"><span>公司动态 Company</span></div>
+					</div>
+					<div class="toplist">
+						<div class="titleimg">
+							<img src="images/companyimg.jpg" alt="">
+						</div>
+						<div>
+							<span style="">最新款智能家居主机-ZNHOMES 3.0多功能版-智能屋无线智能家居，智能屋新一代智能家居主机系统具有30多项功能任意添加组合 一键智能联动包括智能开关、摄像头、智能锁、电动窗帘、安防报警、视频监控，、环境检测等各类传感器。内置无线红外模块,实现多路红外控制,兼容市场上大部份家用电器红外线遥控，可智能学习各种空调、电视机、 DVD、机顶盒,蓝光播放、功放音箱、投影机等家电设备无线接入功能屋控制系统更多功能请探索您的智能屋主机。</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="topleft" id="linkbox">
+					<div class="toptitle"><div class="titlecontent"><span>联系我们 Cotact us</span></div>
+					</div>
+					<div class="toplist">
+						<div class="titleimg">
+							<img src="images/Contactimg.jpg" alt="">
+						</div>
+						<ul class="linkul">
+							<li>公司名称：某某智能家居技术开发有限公司</li>
+							<li>公司地址：天府软园</li>
+							<li>公司电话：400-12345678</li>
+							<li>公司负责人：黄先生</li>
+							<li>公司网址：www.abcdef.com</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		
+
+			<!-- 中间下部分 -->
+			<div class="midbottom">
+				<div id="midbotleft" class="topleft" style="height:260px;">
+					<div class="toptitle"><div class="titlecontent"><span>视频中心 Vedio</span></div>
+					</div>
+					<div>
+						<embed src="http://player.youku.com/player.php/sid/XNTI5MjI1MDI4/v.swf" allowfullscreen="true" quality="high" width="320" height="200" align="middle" allowscriptaccess="always" type="application/x-shockwave-flash">
+					</div>
+				</div>
+
+				<div id="midbotleft" class="topleft" style="width:750px;height:260px;">
+					<div class="toptitle"><div class="titlecontent"><span>产品展示 Product display</span></div>
+					</div>
+					<div id="demo">
+						<div id="indemo">
+							<div id="demo1">
+								<div style="float:left">
+									<div>
+										<a href="#"><img src="images/chanpin.jpg" width="128" height="136" alt=""></a>
+									</div>
+									<div style="text-align:center">
+										<span>产品</span>
+									</div>
+								</div>
+								<div style="float:left">
+									<div>
+										<a href="#"><img src="images/chanpin.jpg" width="128" height="136" alt=""></a>
+									</div>
+									<div style="text-align:center">
+										<span>产品</span>
+									</div>
+								</div>
+								<div style="float:left">
+									<div>
+										<a href="#"><img src="images/chanpin.jpg" width="128" height="136" alt=""></a>
+									</div>
+									<div style="text-align:center">
+										<span>产品</span>
+									</div>
+								</div>
+								<div style="float:left">
+									<div>
+										<a href="#"><img src="images/chanpin.jpg" width="128" height="136" alt=""></a>
+									</div>
+									<div style="text-align:center">
+										<span>产品</span>
+									</div>
+								</div>
+								<div style="float:left">
+									<div>
+										<a href="#"><img src="images/chanpin.jpg" width="128" height="136" alt=""></a>
+									</div>
+									<div style="text-align:center">
+										<span>产品</span>
+									</div>
+								</div>
+
+								
+							</div>
+							<div id="demo2">
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>
+
+		<!-- 底部 -->
+		<div class="bottombox">
+			<div class="bbox">
+				<div>
+					地址：成都市人民中路一段26号  电话：400-88888888,400-12345678 邮箱：2585202540@qq.com; 新智能文化传播有限公司
+				</div>
+				<div>
+					CopyRight 2016 All reserved ICP 备案号 蜀1234567
+				</div>
+			</div>
+		</div>
+	</div>
+	<script>
+	
+	</script>
+</body>
+</html>

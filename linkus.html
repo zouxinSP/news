@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>联系我们</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/substyle.css">
+	<script src="js/index.js"></script>
+	
+</head>
+<body>
+<form onsubmit="return isok()">
+	<div class="mainbox">
+		<!-- 在线咨询 -->
+		<div id="zixunbox">
+			<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=2585202540&amp;menu=yes"><img src="images/services.jpg" alt="" width="104" height="144"></a>
+		</div>
+		
+
+		<!-- 头部 -->
+		<div class="topbox">
+			<!-- login	 -->
+			<div id="login">
+				<div class="login1">
+					<img src="images/login.png" alt="" width="120" height="60">
+				</div>
+				<div class="loginfont">
+					<span class="loginspan">成都新智达智能家居公司</span>
+				</div>
+				<div style="position:absolute;bottom:15px;right:10px;">
+					<img src="images/top.jpg" alt="">
+				</div>
+				<div id="setindex">
+					<ul>
+						<li><a href="#">设为首页</a></li>
+						<li><a href="#">|</a></li>
+						<li><a href="#">联系我们</a></li>
+					</ul>
+				</div>
+			</div>
+			<!-- menu -->
+			<div id="mainmenu" style="position:relative">
+				<div id="nav">
+					<ul>
+						<li><a href="index.html">首页</a></li>
+						<li><a href="list.html">产品列表</a></li>
+						<li onmouseover="showobj('nav1')" onmouseout="hiddenobj('nav1')"><a href="newslist.html">新闻资讯</a></li>
+						<li><a href="success.html">成功案例</a>
+						<li><a href="linkus.html">联系我们</a></li>
+						<li><a href="">关于我们</a></li></li>
+						<li><a href="">解决方案</a></li>
+						<li><a href="">体验中心</a></li>		
+						<li><a href="">加盟合作</a></li>
+						<li><a href="">资料下载</a></li>
+					</ul>
+				</div>
+				<!-- 二级菜单 -->
+				<div id="nav1" >
+					<ul onmouseover="showobj('nav1')" onmouseout="hiddenobj('nav1')">
+						<li><a href="">公司新闻</a></li>
+						<li><a href="">行业新闻</a></li>
+						<li><a href="">国内新闻</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- banner -->
+		<div id="bannerbox"  style="position:relative;">
+			<div>
+				<img src="images/banner1.jpg" width="1113" style="display:block" id="banner1" alt="">
+			</div>
+			<div id="spanbtn" style="position:absolute;right:10px;bottom:10px;">
+				<span onmouseover="showbannerbyid(1)" onmouseout="btnMouseOut()">1</span>
+				<span onmouseover="showbannerbyid(2)" onmouseout="btnMouseOut()">2</span>
+				<span onmouseover="showbannerbyid(3)" onmouseout="btnMouseOut()">3</span>
+				<span onmouseover="showbannerbyid(4)" onmouseout="btnMouseOut()">4</span>
+			</div>
+		</div>
+
+		<!-- 中间内容 -->
+		<div class="middlebox" style="background:#FFF;min-height:800px;;" >
+			<div id="prolistleft">
+				<div id="box1">
+					<h1>企业导航</h1>
+					<ul>
+						<li><a href="#">公司简介</a></li>
+						<li><a href="#">服务流程</a></li>
+						<li><a href="#">服务承诺</a></li>
+						<li><a href="#">服务宗旨</a></li>
+					</ul>
+				</div>
+				
+				<div id="box2">
+					<h1>新闻动态</h1>
+					<ul>
+						<li><a href="#">智能家居集成系统的配置</a></li>
+						<li><a href="#">下一个智能家居赢家</a></li>
+						<li><a href="#">智能家居对生活有什么影响？</a></li>
+						<li><a href="#">智能家居选配技巧</a></li>
+						<li><a href="#">智能家居有哪些必备的功能</a></li>
+						<li><a href="#">智能家居能提前预知地震吗？</a></li>
+						<li><a href="#">智能家居的神器之处</a></li>
+						<li><a href="#">智能家居行业五大乱象</a></li>
+					</ul>
+				</div>
+
+				<div id="box3">
+					<h1>产品分类</h1>
+					<ul>
+						<li><a href="#">智能灯光控制</a></li>
+						<li><a href="#">智能电器控制</a></li>
+						<li><a href="#">安防监控系统</a></li>
+						<li><a href="#">智能背景音乐</a></li>
+						<li><a href="#">智能视频共享</a></li>
+						<li><a href="#">家庭影院系统</a></li>
+						<li><a href="#">智能浇灌系统</a></li>
+						<li><a href="#">系统整合控制</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="prolistright">
+				<div id="topimg" class="topimg">
+					<img  src="images/Contact1.jpg"  alt="">
+				</div>
+				<div id="topcontent">
+					<div style="background:url(images/lv-left.gif);height:30px;line-height:30px;text-indent:10px;margin-top:10px;">留言咨询
+						
+					</div>
+					<div id="prodetail" >
+						<table id="toword">
+							<tr>
+								<td class="tb1">姓名:</td><td><input type="text" id="username"></td>
+							</tr>
+							<tr>
+								<td class="tb1">Email:</td><td><input type="text" id="Email"></td>
+							</tr>
+							<tr>
+								<td class="tb1">QQ:</td><td><input type="text" id="QQ"></td>
+							</tr>
+							<tr>
+								<td class="tb1">电话:</td><td><input type="text" id="Mobile"></td>
+							</tr>
+							<tr>
+								<td class="tb1">内容:</td><td><textarea id="content" rows="5" cols="50"></textarea></td>
+							</tr>
+							<tr>
+								<td colspan="2" style="text-align:right;margin-right:10px;">
+									<input type="reset" id="btnreset" value="取消">
+									<input type="submit" value="提交" id="btnsubmit">
+								</td>
+							</tr>
+						</table>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+
+		<!-- 底部 -->
+		<div class="bottombox" style="margin-top:10px;clear:both;">
+			<div class="bbox">
+				<div>
+					地址：成都市人民中路一段26号  电话：400-88888888,400-12345678 邮箱：2585202540@qq.com; 新智能文化传播有限公司
+				</div>
+				<div>
+					CopyRight 2016 All reserved ICP 备案号 蜀1234567
+				</div>
+			</div>
+		</div>
+	</div>
+</form>
+</body>
+</html>
